@@ -1,15 +1,10 @@
-//
-//  main.cpp
-//  learnCpp
-//
-//  Created by Shelton Cheung on 2020/12/18.
-//  Copyright © 2020 xiaoetong. All rights reserved.
-//
-
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(){
+    long long b = 3.1231231231231231;
+    char a ='a';
+    std::cout<<"nexo"<<std::endl;
+    std::cout<<"var=" <<b<<std::endl;
+    std::cout<<"char = "<<a<<std::endl;
     return 0;
 }
+
