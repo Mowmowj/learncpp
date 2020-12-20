@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09237EDA258F936C00954802 /* pointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09237ED8258F936C00954802 /* pointer.cpp */; };
+		09237EDC258FA14200954802 /* struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09237EDB258FA14200954802 /* struct.cpp */; };
 		09ABEEE2258C49D4003761DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09ABEEE1258C49D4003761DF /* main.cpp */; };
 		09E72E78258F68CD004C8CC9 /* selfDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09E72E77258F68CD004C8CC9 /* selfDef.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09237ED8258F936C00954802 /* pointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointer.cpp; sourceTree = "<group>"; };
+		09237ED9258F936C00954802 /* pointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointer.hpp; sourceTree = "<group>"; };
+		09237EDB258FA14200954802 /* struct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = struct.cpp; sourceTree = "<group>"; };
 		09ABEEDE258C49D4003761DF /* learnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		09ABEEE1258C49D4003761DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		09E72E76258F67F2004C8CC9 /* selfDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selfDef.h; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 			children = (
 				09ABEEE1258C49D4003761DF /* main.cpp */,
 				09E72E76258F67F2004C8CC9 /* selfDef.h */,
+				09237ED8258F936C00954802 /* pointer.cpp */,
+				09237ED9258F936C00954802 /* pointer.hpp */,
+				09237EDB258FA14200954802 /* struct.cpp */,
 				09E72E77258F68CD004C8CC9 /* selfDef.cpp */,
 			);
 			path = learnCpp;
@@ -124,8 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09237EDC258FA14200954802 /* struct.cpp in Sources */,
 				09ABEEE2258C49D4003761DF /* main.cpp in Sources */,
 				09E72E78258F68CD004C8CC9 /* selfDef.cpp in Sources */,
+				09237EDA258F936C00954802 /* pointer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
