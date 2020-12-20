@@ -71,10 +71,10 @@ int main(){
        return 表达式;
     }     */
    
-int add (int params1 , int params2){
-    int sum = params1 + params2;
-    return sum;
-};
+//int add (int params1 , int params2){
+//    int sum = params1 + params2;
+//    return sum;
+//};
 /*
  1:无参无返
  2:有参无返
